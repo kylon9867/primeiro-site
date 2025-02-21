@@ -3,7 +3,6 @@
     padding: 10px;
     display: flex;
     word-spacing: 20px;
-    
 }
 #menuCabeça{
     color:blue;
@@ -12,9 +11,16 @@
     text-align: center;
     justify-content: center;
     padding-top: 2%;
+    
 }
+ #itensMenu:hover{
+    transition: 2s ease;
+    background-color: rgb(13, 13, 116);
+    color: white;
+ } 
 #itensMenu{
-    border : 2px solid black ; 
+    border: 2px  solid rgb(13, 13, 116);
+     border-radius: 20px ;
     padding: 1rem;
 }
 footer{
