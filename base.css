@@ -40,12 +40,16 @@ footer{
     color: white;
     display: flex;
     align-items: center;
+    bottom: 0%;
+    position: fixed;
+    width: 150%;
     
 }
 .carro2 {
 
-    margin-left: 250px;
+    margin-left: 10%;
 }
 .logoford2{
     margin-left: 1600%;
 }
+@media (max-width: 861){}
