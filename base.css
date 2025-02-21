@@ -17,11 +17,22 @@
     transition: 2s ease;
     background-color: rgb(13, 13, 116);
     color: white;
+
  } 
 #itensMenu{
     border: 2px  solid rgb(13, 13, 116);
      border-radius: 20px ;
     padding: 1rem;
+    font-size: 25px;
+    text-decoration: none;
+}
+#textoDaRanger{
+    display: flex;
+    justify-content: center;   
+     
+}
+#aqui{
+    margin-left: 3px;
 }
 footer{
     background-color:rgb(13, 13, 116) ;
