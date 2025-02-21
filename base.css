@@ -2,20 +2,28 @@
     border-bottom: solid black 1px;
     padding: 10px;
     display: flex;
+    word-spacing: 20px;
+    
 }
-#menucabeça{
+#menuCabeça{
     color:blue;
     font-size: 100%;
     margin-left: 30%; 
-       
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
 }
-
+#itensMenu{
+    border : 2px solid black ; 
+    padding: 1rem;
+}
 footer{
     background-color:rgb(13, 13, 116) ;
     font-size:20px;
     color: white;
     display: flex;
     align-items: center;
+    
 }
 .carro2 {
 
