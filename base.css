@@ -52,4 +52,23 @@ footer{
 .logoford2{
     margin-left: 1600%;
 }
-@media (max-width: 861){}
+#videoLancamento{
+    width:100%;
+    position: static;
+}  
+#areaCarros{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 155);
+    
+    
+}
+#CarroDisponivel{
+    border: 5px solid black;
+    bottom: 0%;
+    word-spacing: 10em;
+    background-color: blue;
+    
+
+}
+
