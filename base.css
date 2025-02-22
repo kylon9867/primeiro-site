@@ -54,13 +54,15 @@ footer{
 }
 #videoLancamento{
     width:100%;
-    position: static;
+    position: fixed;
+    background: url(videoplayback.mp4) no-repeat;
+    z-index: -1000;
 }  
 #areaCarros{
     display: flex;
     justify-content: center;
     background-color: rgb(34, 34, 155);
-    
+        bottom: 0;
     
 }
 #CarroDisponivel{
@@ -68,7 +70,7 @@ footer{
     bottom: 0%;
     word-spacing: 10em;
     background-color: blue;
-    
+
 
 }
 
