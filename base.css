@@ -1,16 +1,28 @@
+body{
+    min-width: 100vw;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2%;
+}
 #cabeça{
     border-bottom: solid black 1px;
-    padding: 10px;
-    display: flex;
-    word-spacing: 20px;
+    word-spacing: 5em;
+    top:0;
+    width:100%;
+
 }
 #menuCabeça{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     color:blue;
     font-size: 100%;
-    margin-left: 30%; 
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 2%;
+    gap: 1%;
+    grid-row: 600px ;
     
 }
  #itensMenu:hover{
@@ -20,11 +32,27 @@
 
  } 
 #itensMenu{
-    border: 2px  solid rgb(13, 13, 116);
+    border: 2px  rgb(13, 13, 116);
      border-radius: 20px ;
     padding: 1rem;
     font-size: 25px;
     text-decoration: none;
+}
+main{
+    width: 100vh;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns:repeat(1, 100%);
+    align-items: center;
+    justify-items: center;
+    margin: 0%;
+}
+.carro2 {
+
+    /* margin-left: 7%; */
+    width: 100%;
+    grid-column: 1 / 30;
+    grid-row: 2 / 60;
 }
 #textoDaRanger{
     display: flex;
@@ -38,25 +66,24 @@ footer{
     background-color:rgb(13, 13, 116) ;
     font-size:20px;
     color: white;
-    display: flex;
-    align-items: center;
-    bottom: 0%;
-    position: fixed;
-    width: 150%;
-    
+    display: grid;
+    grid-template-columns:repeat(5,80px);
+    width: 100%;
 }
-.carro2 {
-
-    margin-left: 10%;
+#redesSociais{
+    width: 20px;
 }
 .logoford2{
-    margin-left: 1600%;
+    margin-left: auto;
 }
 #videoLancamento{
-    width:100%;
-    position: fixed;
+    width:50%;
+   
     background: url(videoplayback.mp4) no-repeat;
     z-index: -1000;
+    background-color: black;
+    padding-inline: 30em;
+
 }  
 #areaCarros{
     display: flex;
